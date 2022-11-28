@@ -1,0 +1,91 @@
+.marketingOlfativo {
+    font-family: "Manjari", sans-serif;
+    font-style: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anchocarrusel {
+    width: 100vw;
+    height: 80vw;
+    margin: 10px;
+    padding: 15px;
+}
+
+.sustentable {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 40px;
+    margin: 10px;
+    align-items: center;
+    border: 10px;
+    font-family: "Manjari", sans-serif;
+}
+
+.row {
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.row .card {
+    margin-top: 20px;
+    align-items: center;
+    font-family: "Manjari", sans-serif;
+}
+
+.row .card-body {
+    height: 250px;
+}
+
+.row .card-img-top {
+    width: 200px;
+    height: 250px;
+    padding-top: 15px;
+}
+
+.row .card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #ddc7ab;
+    margin: 0;
+    padding: 1px;
+    width: auto;
+}
+
+.footer .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.footer .fa-instagram {
+    font-size: 2rem;
+    color: gray;
+}
+
+.footer .fa-facebook {
+    font-size: 2rem;
+    color: gray;
+}
+
+.footer .fa-instagram:hover {
+    color: red;
+    transition: .3s;
+    transform: scale(1.5);
+}
+
+.footer .fa-facebook:hover {
+    color: blue;
+    transition: .3s;
+    transform: scale(1.5);
+}
